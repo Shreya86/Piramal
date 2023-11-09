@@ -1,315 +1,258 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
 
-  <title>Piramal</title>
+    <title>Piramal</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="static/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="static/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <!-- Vendor CSS Files -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
 
 
-  <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="static/css/style.css" />
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="./static/css/style.css" />
 
 </head>
 
 
 
-<!-- ======= Header ======= -->
-<header id="header" class="header d-flex align-items-center">
-  <div class="container-fluid d-flex align-items-center justify-content-between main_container">
 
-    <a href="index.html" class="logo d-flex align-items-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <img src="./Images/logo.png">
-    </a>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between main_navbar">
+        <!-- <div class="navbar_brand">
+            <a class="navbar-brand" href="#"><img src="/Images/logo.png" alt=""></a>
+        </div> -->
+        <div class="container-fluid nav_links_main">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="navbar_brand">
+                <a class="navbar-brand" href="#"><img src="./Images/logo.png" alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Process Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Training Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Document Quick Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">System Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sub Sites</a>
+                    </li>
+                </ul>
 
-    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="#">Process Maps</a></li>
-        <li><a href="#">Training Resources</a></li>
-        <li><a href="#">Document Quick Links</a></li>
-        <li><a href="#">System Links</a></li>
-        <li><a href="#">Sub Sites</a></li>
-      </ul>
-    </nav><!-- .navbar -->
-
-  </div>
-</header><!-- End Header -->
-
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="hero">
-
-  <div class="info d-flex align-items-center">
-    <div class="container">
-      <div class="row justify-content-between align-items-center main_inner_banner ">
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <h6 class="white-color">Unlock Your Project Management Success: Your Ultimate Guide to Masterful Execution!
-          </h6>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 display-end">
-          <button class="btn-play-book">
-            <a href="">
-              The PM Playbook
-            </a>
-            <i class="bi bi-arrow-right"></i>
-          </button>
-        </div>
+    </nav>
+</header>
 
-      </div>
-      <!-- test start -->
-
-      <!-- <div class="row">
-          <div class="col-lg-2 col-md-6">
-            <div class="insights-item">
-              <h3>My Apps</h3>
-             <div class="img d-flex">
-              <img src="./Images/client.png" class="pe-4">
-              <img src="./Images/client-1.png">
-             </div>
+<section id="main_banner">
+    <div class="container banner_inside_hero">
+        <div class="row justify-content-between align-items-center main_inner_banner ">
+            <div class="col-lg-8 col-md-8 col-sm-12 main_PM_text">
+              <h6 class="white-color">Unlock Your Project Management Success: Your Ultimate Guide to Masterful Execution!
+              </h6>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 main_PM_btn">
+              <button class="btn btn-light"><a class="main_btn" href="">The PM Playbook  <i class="bi bi-arrow-right"></i> </a> </button>
             </div>
           </div>
-
-          <div class="col-lg-5 col-md-6">
-            <div class="insights-item ">
-              <div class="tab">
-                <p>NEWS</p>
-                <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-                <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-              </div>
-              
-              <div id="London" class="tabcontent">
-                <h3>London</h3>
-                <p>London is the capital city of England.</p>
-              </div>
-              
-              <div id="Paris" class="tabcontent">
-                <h3>Paris</h3>
-                <p>Paris is the capital of France.</p> 
-              </div>
-              
-              <div id="Tokyo" class="tabcontent">
-                <h3>Tokyo</h3>
-                <p>Tokyo is the capital of Japan.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-6">
-            <div class="insights-item">
-              <div class="img pb-4">
-                <img src="./Images/image-3.png" class="img-fluid" alt="">
-              </div>
-              <h3>JSS Digital CX offerings provide unprecedented advantage to
-                JSS Digital </h3>
-              <p>JSS Digital CX offerings provide unprecedented advantage to
-                JSS Digital CX offerings provide unprecedented advantage to</p>
-              <a href="service-details.html" class="readmore">KNOW MORE</a>
-            </div>
-          </div>
-        </div>
-        test end -->
     </div>
-  </div>
-
-
-</section><!-- End Hero Section -->
-
-<!-- ======= Insights Section ======= -->
-<section id="insights" class="insights">
-  <div class="container-fluid">
-
-    <div class="row">
-      <div class="col-lg-2 col-md-4">
-        <div class="insights-item" style="height: 160px;">
-          <h3 class="pb-3">My Apps</h3>
-          <div class="img d-flex">
-            <img src="./Images/client.png" class="pe-4">
-            <img src="./Images/client-1.png">
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-5 col-md-8">
-        <div class="insights-item ">
-          <div class="tab">
-            <h3>NEWS</h3>
-            <div>
-              <button class="tablinks active" onclick="openCity(event, 'Recent')" aria-selected="true">Recent</button>
-              <button class="tablinks" onclick="openCity(event, 'From PMO')">From PMO</button>
-              <button class="tablinks" onclick="openCity(event, 'Industry News')">Industry News</button>
-            </div>
-          </div>
-          <div id="Recent" class="tabcontent active" aria-selected="true" >
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-          </div>
-
-          <div id="From PMO" class="tabcontent">
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-          </div>
-
-          <div id="Industry News" class="tabcontent">
-            <div class="content">
-              <div class="icon pe-2">
-                <img src="/Images/icon.png">
-              </div>
-              <div class="text">
-                <h3>New Training Modules</h3>
-                <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
-                  tellus, quis sodales leo</p>
-                <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
- 
-      <div class="col-lg-5 col-md-8" data-bs-spy="scroll">
-        <div class="insights-item">
-          <div class="tab_1">
-            <h3>MEET THE TEAM</h3>
-          </div>
-          <div class="brd"></div>
-          <div class="content">
-            <div class="icon-1 pe-2">
-              <img src="/Images/icon-1.png">
-            </div>
-            <div class="text">
-              <h3><b>Site SA</b></h3>
-              <p class="p-grey">Managed By Prathamesh Lambe.</p>
-            </div>
-            <div class="icon-1 pe-2">
-              <img src="/Images/pic.png">
-            </div>
-            <div class="">
-              <button class="btn-know-more">
-                <a href="">
-                  Know more
-                </a>
-                <i class="bi bi-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="icon-1 pe-2">
-              <img src="/Images/icon-1.png">
-            </div>
-            <div class="text">
-              <h3><b>Site SA</b></h3>
-              <p class="p-grey">Managed By Prathamesh Lambe.</p>
-            </div>
-            <div class="icon-1 pe-2">
-              <img src="/Images/pic.png">
-            </div>
-            <div class="">
-              <button class="btn-know-more">
-                <a href="">
-                  Know more
-                </a>
-                <i class="bi bi-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-          <div class="content">
-            <div class="icon-1 pe-2">
-              <img src="/Images/icon-1.png">
-            </div>
-            <div class="text">
-              <h3><b>Site SA</b></h3>
-              <p class="p-grey">Managed By Prathamesh Lambe.</p>
-            </div>
-            <div class="icon-1 pe-2">
-              <img src="/Images/pic.png">
-            </div>
-            <div class="">
-              <button class="btn-know-more">
-                <a href="">
-                  Know more
-                </a>
-                <i class="bi bi-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
 </section>
-
-<section id="footer" class="footer">
-
+<section id="insights" class="insights mt-5 mb-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-6">
+              <div class="insights-item" style="height: 160px;">
+                <h3 class="pb-3">My Apps</h3>
+                <div class="img d-flex">
+                  <img src="/Images/client.png" class="pe-2">
+                  <img src="/Images/client-1.png">
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-5 col-md-12">
+              <div class="insights-item">
+                <div class="tab">
+                  <h3>NEWS</h3>
+                  <div>
+                    <button class="tablinks active" onclick="openCity(event, 'Recent')" aria-selected="true">Recent</button>
+                    <button class="tablinks" onclick="openCity(event, 'From PMO')">From PMO</button>
+                    <button class="tablinks" onclick="openCity(event, 'Industry News')">Industry News</button>
+                  </div>
+                </div>
+                <div id="Recent" class="tabcontent active" aria-selected="true" style="display: block;">
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div id="From PMO" class="tabcontent" style="display: none;">
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div id="Industry News" class="tabcontent" style="display: none;">
+                  <div class="content">
+                    <div class="icon pe-2">
+                      <img src="/Images/icon.png">
+                    </div>
+                    <div class="text">
+                      <h3>New Training Modules</h3>
+                      <p class="p-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pellentesque
+                        tellus, quis sodales leo</p>
+                      <p class="p-grey"><i> - Pankaj Jha 02-Nov-2023</i></p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+      
+       
+            <div class="col-lg-5 col-md-12" data-bs-spy="scroll">
+              <div class="insights-item">
+                <div class="tab_1">
+                  <h3>MEET THE TEAM</h3>
+                </div>
+                <div class="brd"></div>
+                <div class="content">
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/icon-1.png">
+                  </div>
+                  <div class="text">
+                    <h3><b>Site SA</b></h3>
+                    <p class="p-grey">Managed By Prathamesh Lambe.</p>
+                  </div>
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/pic.png">
+                  </div>
+                  <div class="">
+                    <button class="btn-know-more">
+                      <a href="">
+                        Know more
+                      </a>
+                      <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/icon-1.png">
+                  </div>
+                  <div class="text">
+                    <h3><b>Site SA</b></h3>
+                    <p class="p-grey">Managed By Prathamesh Lambe.</p>
+                  </div>
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/pic.png">
+                  </div>
+                  <div class="">
+                    <button class="btn-know-more">
+                      <a href="">
+                        Know more
+                      </a>
+                      <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/icon-1.png">
+                  </div>
+                  <div class="text">
+                    <h3><b>Site SA</b></h3>
+                    <p class="p-grey">Managed By Prathamesh Lambe.</p>
+                  </div>
+                  <div class="icon-1 pe-2">
+                    <img src="/Images/pic.png">
+                  </div>
+                  <div class="">
+                    <button class="btn-know-more">
+                      <a href="">
+                        Know more
+                      </a>
+                      <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 </section>
 
 <body>
@@ -322,39 +265,33 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 
 
 
 <!-- Owl carrousel CSS Files -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-  integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-<!-- Services carrousel -->
-
-<!-- Swiper JS -->
-<script src="./static/js/swiper-bundle.min.js"></script>
-
-<!-- JavaScript -->
-<script src="./static/js/script.js"></script>
-<script>
+    <script>
  
-$("#Recent").show();
-  function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-</script>
+        $("#Recent").show();
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+        </script>
+
 
 </html>
