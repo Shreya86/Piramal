@@ -262,6 +262,12 @@ background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgb(233, 244, 255) 0%, rg
 
 }
 
+.footer{
+  background-color: #253746;
+  padding:30px;
+  
+}
+
 .p-grey{
   font-size: 12px;
   color: #717171; 
