@@ -115,6 +115,10 @@ body {
   justify-content: flex-end;
 }
 
+.navbar-light .navbar-toggler {
+  color: #ffffff!important;
+}
+
 @media only screen and (max-width: 1024px) {
   .nav_links_main{
       display: flex!important;
