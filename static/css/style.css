@@ -286,7 +286,9 @@ background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgb(233, 244, 255) 0%, rg
 
 .post-name{
   color: #fff;
-  text-align: center;
+  font-size: 12px;
+  text-align: left;
+  padding: 5px 0px 5px 12px;
   display: block;
 }
 .position-relative {
