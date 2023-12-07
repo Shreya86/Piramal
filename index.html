@@ -445,12 +445,12 @@
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
-      tablinks = document.getElementsByClassName("tablinks_1");
+      tablinks = document.getElementsByClassName("tablinks1");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
       document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += "";
+      evt.currentTarget.className += " active";
     }
   </script>
 
